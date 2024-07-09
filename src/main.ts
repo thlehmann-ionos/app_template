@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import { translate as t, translatePlural as n } from '@nextcloud/l10n'
 import App from './App.vue'
 Vue.mixin({ methods: { t, n } })
 
